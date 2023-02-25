@@ -6,7 +6,7 @@ const Hero = () => {
         <span className="absolute block top-0 bottom-0 left-0 right-0 bg-black/50 z-[8]"></span>
         <div className="absolute z-[9] left-0 top-[50%] translate-y-[-50%] text-white ml-4 text-4xl  md:text-5xl lg:text-6xl font-bold px-4">
           <h1>
-            Great <spam className="text-orange-400">Food</spam>
+            Great <span className="text-orange-400">Food</span>
           </h1>
 
           <h1>

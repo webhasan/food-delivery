@@ -83,7 +83,7 @@ const Foods = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 mx-[auto] px-4">
         {filteredFoods.map((food) => (
-          <div className="group relative rounded-lg overflow-hidden shadow-md hover:scale-105 transition-all duration-300">
+          <div className="group relative rounded-lg overflow-hidden shadow-md hover:scale-105 transition-all duration-300" key={food.name}>
             <img
               className="w-[100%] h-[250px] object-cover"
               src={food.image}

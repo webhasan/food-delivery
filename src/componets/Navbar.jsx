@@ -61,7 +61,7 @@ const Navbar = () => {
             Best <span className="font-bold">Eats</span>
           </h1>
           <button onClick={() => setShowMenu(false)}>
-            <AiOutlineClose size={24} p-2 />
+            <AiOutlineClose size={24}  />
           </button>
         </div>
 
